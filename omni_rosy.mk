@@ -18,7 +18,7 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/languages_full.mk)
 
 # Release name
-PRODUCT_RELEASE_NAME := mido
+PRODUCT_RELEASE_NAME := rosy
 
 $(call inherit-product, build/target/product/embedded.mk)
 
@@ -44,10 +44,10 @@ PRODUCT_COPY_FILES += \
 	$(LOCAL_PATH)/prebuilt/Image.gz-dtb:kernel
 
 # Device identifier. This must come after all inclusions
-PRODUCT_DEVICE := mido
-PRODUCT_NAME := omni_mido
+PRODUCT_DEVICE := rosy
+PRODUCT_NAME := omni_rosy
 PRODUCT_BRAND := Xiaomi
-PRODUCT_MODEL := Redmi Note 4
+PRODUCT_MODEL := Redmi 5
 PRODUCT_MANUFACTURER := Xiaomi
 
 # Blacklist Properties

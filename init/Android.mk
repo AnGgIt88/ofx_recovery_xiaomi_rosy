@@ -22,7 +22,7 @@ LOCAL_MODULE_TAGS := optional
 LOCAL_C_INCLUDES := \
     system/core/base/include \
     system/core/init
-LOCAL_SRC_FILES := init_mido.cpp
-LOCAL_MODULE := libinit_mido
+LOCAL_SRC_FILES := init_rosy.cpp
+LOCAL_MODULE := libinit_rosy
 
 include $(BUILD_STATIC_LIBRARY)

@@ -14,7 +14,7 @@
 # limitations under the License.
 #
 
-LOCAL_PATH := device/xiaomi/mido
+LOCAL_PATH := device/xiaomi/rosy
 
 # Architecture
 TARGET_ARCH := arm64
@@ -51,8 +51,8 @@ BOARD_MKBOOTIMG_ARGS := --ramdisk_offset 0x01000000 --tags_offset 0x00000100
 TARGET_PREBUILT_KERNEL := $(LOCAL_PATH)/prebuilt/Image.gz-dtb
 
 #Init
-TARGET_INIT_VENDOR_LIB := libinit_mido
-TARGET_RECOVERY_DEVICE_MODULES := libinit_mido
+TARGET_INIT_VENDOR_LIB := libinit_rosy
+TARGET_RECOVERY_DEVICE_MODULES := libinit_rosy
 TARGET_PLATFORM_DEVICE_BASE := /devices/soc/
 
 # Partitions
