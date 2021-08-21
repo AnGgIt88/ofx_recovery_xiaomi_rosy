@@ -1,4 +1,4 @@
 #
-ro.product.device=mido 
-ro.build.product=mido
+ro.product.device=rosy
+ro.build.product=rosy
 #
