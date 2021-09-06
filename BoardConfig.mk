@@ -93,7 +93,7 @@ ALLOW_MISSING_DEPENDENCIES := true
 TW_FORCE_USE_BUSYBOX := true
 #AB_OTA_UPDATER := false
 TARGET_USES_LOGD := true
-TW_TORCH_PATH := "/sys/class/leds/led:torch_0"
+TW_TORCH_PATH := "/sys/class/leds/led:torch_1"
 TW_DISABLE_DEFAULT_DM_VERITY := true
 TW_DISABLE_DEFAULT_TREBLE_COMP := true
 
